@@ -1,0 +1,20 @@
+﻿1 - Attached is a csv file containing information for 12 flyers and their pages. Design a MySql database structure that
+supports the storage of this information. Attach the database creation scripts. Normalize the structure where possible.
+
+
+2 - Write a php command line script that accepts the csv file and uploads the information to your database.
+The only argument to this command line script should be the csv file location.
+categoryID and flyerID should be created on upload.
+
+
+3 - Write a php command line script that accepts an optional categoryID as a parameter and returns a list of flyers
+containing the following information: flyerID, flyer start date, flyer end date, category, flyer priority, store.
+The list should be ordered by flyer priority in ascending order. Only flyers valid on the current date should be returned.
+Add indices to the database where appropriate.
+
+
+4 - Write a php command line script that accepts flyerID as a parameter and returns a list of pages from that flyerID
+containing the following information: page number, file name. Pages should be ordered by page number in ascending order.
+
+
+5 - Add a configuration file that can be modified by us to connect to a db that we've created with your scripts.
